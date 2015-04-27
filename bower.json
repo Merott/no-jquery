@@ -1,0 +1,20 @@
+{
+  "name": "no-jquery",
+  "main": "no-jquery.js",
+  "version": "0.0.1",
+  "authors": [
+    "Merott Movahedi <merott@merott.com>"
+  ],
+  "description": "Removes jQuery completely from the global window object",
+  "keywords": [
+    "jQuery"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "no-jquery",
+  "version": "0.0.1",
+  "description": "Removes jQuery completely from the global window object",
+  "main": "no-jquery.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Merott/no-jquery.git"
+  },
+  "keywords": [
+    "jQuery"
+  ],
+  "author": "Merott Movahedi <merott@merott.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Merott/no-jquery/issues"
+  },
+  "homepage": "https://github.com/Merott/no-jquery"
+}
