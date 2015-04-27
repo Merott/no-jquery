@@ -17,7 +17,10 @@ but I don't need jQuery in my application, and want to make sure that any
 libraries that I use don't find jQuery on the global scope and try to use it 
 during test execution. Also, if I were to use jQuery in my application, I'd
 include it as a dependency through Bower, meaning that during test execution
-jQuery would try to load twice, and that could be nasty! 
+jQuery would try to load twice, and that could be nasty!
+
+Including this script will remove `$` and `jQuery` from the `window` and 
+reassign it to `window.no$`, if jQuery is found in the first place.
 
 ## Install
 
